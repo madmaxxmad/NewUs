@@ -1,5 +1,11 @@
 <?php
 include 'ringba_get_number.php';
+{
+  "require": {
+    "php": "^8.0.0"
+  }
+}
+
 
 $tags      = $_GET;
 $number    = '+'.$_GET['number'];
